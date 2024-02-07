@@ -1,5 +1,4 @@
 
-
 import 'dart:io';
 
 void menu() {
@@ -42,14 +41,6 @@ void main(nomer) {
     } else {
       print("Input tidak valid");
     }
-
-    switch (nomer) {
-        case 1 :
-        penambahan();
-        break;
-        default:
-        print("Menu tidak tersedia");
-      }
 
     
 
